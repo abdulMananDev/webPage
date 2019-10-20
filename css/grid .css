@@ -1,0 +1,66 @@
+.grid{
+    
+    
+    display: grid;
+    width:1080px;
+    padding:1rem 1rem;
+    grid-template-rows:100px 200px 400px 100px ;
+    grid-template-columns: repeat(4,200px);
+    margin:3rem auto;
+    
+    font-size:2rem;
+    grid-gap:30px;
+    
+    
+     
+    
+}
+ 
+
+
+
+.header{
+    background-color:red;
+    color:white;
+    grid-column: 1/-1;
+
+}
+.smallbox{
+    background-color:red;
+    color:white;
+
+   
+}
+nav{
+    background-color: red;
+   color:white;
+   grid-row:2/4;
+   grid-column: 4/5;
+    
+   
+}
+
+
+main{
+   
+    
+    background-color: red;
+   
+    color:white;
+    grid-column: 1/4;
+    
+    
+
+    
+    
+}
+
+.footer{
+    background-color: red;
+    color:white;
+    grid-column: 1/5;
+    
+}
+    
+
+     
